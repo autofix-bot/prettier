@@ -5,7 +5,7 @@ const extraRendererAttrs = ((attrs.rendererAttrs &&
 const annotate = (angular.injector satisfies any).$$annotate satisfies (
   fn: Function
 ) => string[];
-  
+
 const originalPrototype = originalConstructor.prototype satisfies TComponent & InjectionTarget,
   propertyToServiceName = originalPrototype._inject;
 

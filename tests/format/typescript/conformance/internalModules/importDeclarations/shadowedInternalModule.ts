@@ -6,7 +6,7 @@ module A {
         x: number;
         y: number;
     }
-} 
+}
 
 module B {
     var A = { x: 0, y: 0 };

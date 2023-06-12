@@ -46,9 +46,9 @@ proseWrap: "always"
 
       something\`
       asd
-      
+
       asd
-      
+
       asd
       \`;
       \`\`\`

@@ -3,7 +3,7 @@ class Person {
   constructor(name: string) {
     this.#name = name;
   }
-  
+
   equals(other: unknown) {
     return (
       other &&

@@ -10,7 +10,7 @@ printWidth: 80
 
 
   >.nested-1
- 
+
   {
 padding: 10px;   .nested-2-1{
       color       :      red     ;

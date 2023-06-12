@@ -309,11 +309,11 @@ exports[`show detailed usage with --help log-level (stdout) 1`] = `
 
 Valid options:
 
-  silent   
-  error    
-  warn     
-  log      
-  debug    
+  silent
+  error
+  warn
+  log
+  debug
 
 Default: log"
 `;

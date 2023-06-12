@@ -75,7 +75,7 @@ printWidth: 80
   # prettier-ignore
              {  sss  },       # 123
     {  qqqq },
-  
+
   # prettier-ignore
           [ccc    ]       # 777
   , [ddd    ]

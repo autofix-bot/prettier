@@ -17,7 +17,7 @@ class D { }
 var unionTuple: [C, string | number] = [new C(), "foo"];
 var unionTuple1: [C, string | number] = [new C(), "foo"];
 var unionTuple2: [C, string | number, D] = [new C(), "foo", new D()];
-var unionTuple3: [number, string| number] = [10, "foo"]; 
+var unionTuple3: [number, string| number] = [10, "foo"];
 
 numStrTuple = numStrTuple2;
 numStrTuple = numStrBoolTuple;
@@ -68,10 +68,10 @@ parsers: ["typescript"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-﻿var strNumTuple: [string, number] = ["foo", 10]; 
+﻿var strNumTuple: [string, number] = ["foo", 10];
 var numTupleTuple: [number, [string, number]] = [10, ["bar", 20]];
-var unionTuple1: [number, string| number] = [10, "foo"]; 
-var unionTuple2: [boolean, string| number] = [true, "foo"]; 
+var unionTuple1: [number, string| number] = [10, "foo"];
+var unionTuple2: [boolean, string| number] = [true, "foo"];
 
 // no error
 var idx0 = 0;

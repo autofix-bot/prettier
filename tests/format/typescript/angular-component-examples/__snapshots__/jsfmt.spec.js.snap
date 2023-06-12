@@ -13,10 +13,10 @@ trailingComma: "es5"
   </ul>
   \`,
   styles: [   \`
-  
+
  :host {
    color: red;
- } 
+ }
  div { background: blue
  }
 \`
@@ -60,10 +60,10 @@ trailingComma: "none"
   </ul>
   \`,
   styles: [   \`
-  
+
  :host {
    color: red;
- } 
+ }
  div { background: blue
  }
 \`

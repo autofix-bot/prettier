@@ -6,8 +6,8 @@ parsers: ["html"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-<!-- 
-#7241, 
+<!--
+#7241,
 reproduction:
 two different element,
 linebreak
@@ -18,11 +18,11 @@ extra space(s)
 
 
 
-<                                           
+<
 
 =====================================output=====================================
-<!-- 
-#7241, 
+<!--
+#7241,
 reproduction:
 two different element,
 linebreak

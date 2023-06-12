@@ -130,7 +130,7 @@ requirePragma: true
 =====================================input======================================
 /**
  * MIT LICENSE
- * 
+ *
  * bla bla bla
  *
  * @format
@@ -141,7 +141,7 @@ requirePragma: true
 =====================================output=====================================
 /**
  * MIT LICENSE
- * 
+ *
  * bla bla bla
  *
  * @format

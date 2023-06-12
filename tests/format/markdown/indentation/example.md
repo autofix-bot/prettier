@@ -1,4 +1,4 @@
-- Top level list item 1 
+- Top level list item 1
 - Top level list item 2
   - Nested List item 1
   - Nested List item 2

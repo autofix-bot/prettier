@@ -57,7 +57,7 @@ printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
 ---yaml
-  
+
 title: Hello
 slug: home
 
@@ -68,7 +68,7 @@ Hello world!
 
 =====================================output=====================================
 ---yaml
-  
+
 title: Hello
 slug: home
 
@@ -86,7 +86,7 @@ printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
 ---yaml
-  
+
 title: Hello
 slug: home
 

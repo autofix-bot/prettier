@@ -4,10 +4,10 @@
   .bla
 </template>
 
-<template 
+<template
 
 
-   
+
    lang='pug'>
   .test
     #foo

@@ -1,11 +1,11 @@
 <i18n lang="json">
 { "en": {
     "hello": "hello world!"
-    
-    
+
+
     }, "ja": {
-   
-   
+
+
     "hello": "こんにちは、世界！"
   }
 }

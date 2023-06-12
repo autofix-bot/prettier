@@ -1921,7 +1921,7 @@ class C4 {
   f/* f */(/* args */) /* returns */ {}
 }
 
-function foo1() 
+function foo1()
 // this is a function
 {
   return 42
@@ -2057,7 +2057,7 @@ class C4 {
   f/* f */(/* args */) /* returns */ {}
 }
 
-function foo1() 
+function foo1()
 // this is a function
 {
   return 42
@@ -4038,7 +4038,7 @@ semi: false
                                                                                 | printWidth
 =====================================input======================================
   const x = 0;
-  
+
   /* istanbul ignore if */ // debug case currently not triggered
   if (true) {
     x;
@@ -4062,7 +4062,7 @@ printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
   const x = 0;
-  
+
   /* istanbul ignore if */ // debug case currently not triggered
   if (true) {
     x;
@@ -5281,7 +5281,7 @@ printWidth: 80
 semi: false
                                                                                 | printWidth
 =====================================input======================================
-var a = { /* comment */      
+var a = { /* comment */
 b };
 =====================================output=====================================
 var a = {
@@ -5297,7 +5297,7 @@ parsers: ["babel", "flow", "typescript"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-var a = { /* comment */      
+var a = { /* comment */
 b };
 =====================================output=====================================
 var a = {
@@ -5682,11 +5682,11 @@ printWidth: 80
 semi: false
                                                                                 | printWidth
 =====================================input======================================
-#!/there/is-space-here->         
+#!/there/is-space-here->
 
 // Do not trim trailing whitespace from this source file!
 
-// There is some space here ->                        
+// There is some space here ->
 
 =====================================output=====================================
 #!/there/is-space-here->
@@ -5704,11 +5704,11 @@ parsers: ["babel", "flow", "typescript"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-#!/there/is-space-here->         
+#!/there/is-space-here->
 
 // Do not trim trailing whitespace from this source file!
 
-// There is some space here ->                        
+// There is some space here ->
 
 =====================================output=====================================
 #!/there/is-space-here->
@@ -6452,7 +6452,7 @@ while(
 
 while(true) {} // comment
 
-while(true) /* comment */ ++x; 
+while(true) /* comment */ ++x;
 
 while(1) // Comment
   foo();
@@ -6514,7 +6514,7 @@ while(
 
 while(true) {} // comment
 
-while(true) /* comment */ ++x; 
+while(true) /* comment */ ++x;
 
 while(1) // Comment
   foo();

@@ -648,7 +648,7 @@ class C {
   accessor clicked = "value";
   [foo]() {}
 }
-  
+
 =====================================output=====================================
 class C {
   accessor clicked = "value";
@@ -668,7 +668,7 @@ class C {
   accessor clicked = "value";
   [foo]() {}
 }
-  
+
 =====================================output=====================================
 class C {
   accessor clicked = "value";

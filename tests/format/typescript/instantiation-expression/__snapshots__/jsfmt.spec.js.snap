@@ -40,7 +40,7 @@ printWidth: 80
 =====================================input======================================
 interface Example {
   (a: number): typeof a
-      
+
   <T>(): void
 };
 

@@ -15,7 +15,7 @@ A bad version was accidentally published and [it can't be unpublished](https://g
 class A {
   @decorator()
   get foo () {}
-  
+
   @decorator()
   set foo (value) {}
 }
@@ -23,7 +23,7 @@ class A {
 // Prettier 2.8.6
 SyntaxError: Decorators cannot be applied to multiple get/set accessors of the same name. (5:3)
   3 |   get foo () {}
-  4 |   
+  4 |
 > 5 |   @decorator()
     |   ^^^^^^^^^^^^
   6 |   set foo (value) {}
@@ -255,7 +255,7 @@ type Foo<T> = T extends ((a) => a is infer R extends string) ? R : never;
 type Foo<T> = T extends (a) => a is infer R extends string ? R : never;
 
 // Prettier 2.8.3 (Second format)
-SyntaxError: '?' expected. 
+SyntaxError: '?' expected.
 
 // Prettier 2.8.4
 type Foo<T> = T extends ((a) => a is infer R extends string) ? R : never;

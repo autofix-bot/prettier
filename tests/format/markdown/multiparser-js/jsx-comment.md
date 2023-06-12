@@ -4,7 +4,7 @@ const Foo = () => {
     <div>
       {/*
         This links to a page that does not yet exist.
-      */}    
+      */}
       <hr />
     </div>
   );

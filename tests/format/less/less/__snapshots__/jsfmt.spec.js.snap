@@ -6,9 +6,9 @@ parsers: ["less"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-// This comment won't be included in the CSS. 
+// This comment won't be included in the CSS.
 //This comment won't be included in the CSS.
-//     This comment won't be included in the CSS.     
+//     This comment won't be included in the CSS.
 
 /* But this comment will, except in compressed mode. */
 /*     But this comment will, except in compressed mode.     */
@@ -54,7 +54,7 @@ each(@selectors, {
 
 
 // TODO: fix this
-each(@selectors, 
+each(@selectors,
 {
   .sel-@{value} {
 a: b;
@@ -73,7 +73,7 @@ each(@selectors, {
 });
 
 // TODO: fix this
-each(@selectors, 
+each(@selectors,
 {
   .sel-@{value} {
 a: b;
@@ -3456,13 +3456,13 @@ parsers: ["less"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-// Animation   
+// Animation
 // '
 .a { color: red }
 
 .aa:hover::after { content: "\\""; } // "
-    
-    
+
+
 .b { background:url(http://example.com); }   .b::after { content: "a"; }
 
 .bb { background:url('http://example.com/(foo)bar'); }   .bb::after { content: "'a"; } // """
@@ -3474,9 +3474,9 @@ printWidth: 80
 
 /*        fff
    //   */     .d:hover::after {
-     // qw'erty 
+     // qw'erty
     content: "'''"; }
-   
+
 [href]:active  {
   opacity:   // '!' "?"
     1;

@@ -18,7 +18,7 @@ color: red; display: none
 </div>;
 
 <div>
-<style jsx>{`This is invalid css. 
+<style jsx>{`This is invalid css.
       Shouldn't fail.
             Shouldn't be formatted.`}</style>
 </div>;
@@ -36,7 +36,7 @@ margin: 0;
 
 .top-bar .logo {
   height: 30px;
-  margin: auto; 
+  margin: auto;
     position: absolute;
 	left: 0;right: 0;
 }
@@ -55,7 +55,7 @@ margin: 0;
 
 .top-bar .logo {
   height: 30px;
-  margin: auto; 
+  margin: auto;
     position: absolute;
 	left: 0;right: 0;
 }
@@ -74,7 +74,7 @@ margin: 0;
 
 .top-bar .logo {
   height: 30px;
-  margin: auto; 
+  margin: auto;
     position: absolute;
 	left: 0;right: 0;
 }

@@ -10,11 +10,11 @@ printWidth: 80
 var strOrBoolean: string | boolean;
 var strOrNum: string | number;
 
-// If each type in U has call signatures and the sets of call signatures are identical ignoring return types, 
+// If each type in U has call signatures and the sets of call signatures are identical ignoring return types,
 // U has the same set of call signatures, but with return types that are unions of the return types of the respective call signatures from each type in U.
 var unionOfDifferentReturnType: { (a: number): number; } | { (a: number): Date; };
 numOrDate = unionOfDifferentReturnType(10);
-strOrBoolean = unionOfDifferentReturnType("hello"); // error 
+strOrBoolean = unionOfDifferentReturnType("hello"); // error
 unionOfDifferentReturnType1(true); // error in type of parameter
 
 var unionOfDifferentReturnType1: { (a: number): number; (a: string): string; } | { (a: number): Date; (a: string): boolean; };
@@ -295,11 +295,11 @@ printWidth: 80
 var strOrBoolean: string | boolean;
 var strOrNum: string | number;
 
-// If each type in U has construct signatures and the sets of construct signatures are identical ignoring return types, 
+// If each type in U has construct signatures and the sets of construct signatures are identical ignoring return types,
 // U has the same set of construct signatures, but with return types that are unions of the return types of the respective construct signatures from each type in U.
 var unionOfDifferentReturnType: { new (a: number): number; } | { new (a: number): Date; };
 numOrDate = new unionOfDifferentReturnType(10);
-strOrBoolean = new unionOfDifferentReturnType("hello"); // error 
+strOrBoolean = new unionOfDifferentReturnType("hello"); // error
 new unionOfDifferentReturnType1(true); // error in type of parameter
 
 var unionOfDifferentReturnType1: { new (a: number): number; new (a: string): string; } | { new (a: number): Date; new (a: string): boolean; };
@@ -584,7 +584,7 @@ printWidth: 80
 ﻿var numOrDate: number | Date;
 var anyVar: number;
 
-// If each type in U has a string index signature, 
+// If each type in U has a string index signature,
 // U has a string index signature of a union type of the types of the string index signatures from each type in U.
 
 var unionOfDifferentReturnType: { [a: string]: number; } | { [a: string]: Date; };
@@ -595,7 +595,7 @@ var unionOfTypesWithAndWithoutStringSignature: { [a: string]: number; } | boolea
 anyVar = unionOfTypesWithAndWithoutStringSignature["hello"]; // any
 anyVar = unionOfTypesWithAndWithoutStringSignature[10]; // any
 
-// If each type in U has a numeric index signature, 
+// If each type in U has a numeric index signature,
 // U has a numeric index signature of a union type of the types of the numeric index signatures from each type in U.
 var unionOfDifferentReturnType1: { [a: number]: number; } | { [a: number]: Date; };
 numOrDate = unionOfDifferentReturnType1["hello"]; // any

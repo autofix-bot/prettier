@@ -3,7 +3,7 @@ function x() {
       //comment
       .bar();
 }
- 
+
 function f() {
   throw (
     foo
@@ -11,7 +11,7 @@ function f() {
       .bar()
   );
 }
- 
+
 fn(function f() {
   throw (
     foo

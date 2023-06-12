@@ -10,7 +10,7 @@
 <!-- Not root block -->
 <template>
 <style vars="     {row   }"></style>
-</template> 
+</template>
 
 <!-- Not attribute -->
 <style>

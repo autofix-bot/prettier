@@ -4,10 +4,10 @@
   </ul>
   `,
   styles: [   `
-  
+
  :host {
    color: red;
- } 
+ }
  div { background: blue
  }
 `

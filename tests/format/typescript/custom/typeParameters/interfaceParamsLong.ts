@@ -1,5 +1,5 @@
 interface ReallyReallyLongName<
-    TypeArgumentNumberOne, 
+    TypeArgumentNumberOne,
     TypeArgumentNumberTwo,
     TypeArgumentNumberThree
 > {}

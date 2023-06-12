@@ -17,7 +17,7 @@ while(
 
 while(true) {} // comment
 
-while(true) /* comment */ ++x; 
+while(true) /* comment */ ++x;
 
 while(1) // Comment
   foo();

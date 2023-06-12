@@ -3,5 +3,5 @@
 `   three   spaces
   everywhere   `
 
-`   three   spaces 
+`   three   spaces
  everywhere   `

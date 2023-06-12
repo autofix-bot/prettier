@@ -14,7 +14,7 @@ function y() {
   const stillTooLong3 = <Immutable.Map<string>>someExistingConfigMap.mergeDeep(fallbackOptions.someMethodWithLongName(param1, param2));
 
   const stillTooLong4 = <Immutable.Map<string, boolean, number, object, null, undefined, any, void, never> | undefined>someExistingConfigMap.mergeDeep(fallbackOptions.someMethodWithLongName(param1, param2));
-  
+
   const testObjLiteral = <Immutable.Map<string, any>>{ property1: "myPropertyVal" };
 
   const testObjLiteral2 = <Immutable.Map<string, any, number, boolean, object, null, undefined, never, "extra long">>{ property1: "myPropertyVal" };

@@ -50,7 +50,7 @@ class Derived1 extends Base { private m; }
 class Derived2 extends Base { private n; }
 function f8() {
     return new Derived1();
-    return new Derived2();    
+    return new Derived2();
 }
 var f9 = function () {
     return new Derived1();

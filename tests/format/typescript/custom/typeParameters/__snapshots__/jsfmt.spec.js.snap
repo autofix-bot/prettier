@@ -8,14 +8,14 @@ printWidth: 80
 =====================================input======================================
 interface Interface {
     <
-        Voila, 
-        InViewHumbleVaudevillianVeteran, 
+        Voila,
+        InViewHumbleVaudevillianVeteran,
         CastVicariouslyAsBothVictimAndVillainByTheVicissitudesOfFate
     >(): V;
     new <
-        ThisVisage, 
-        NoMereVeneerOfVanity, 
-        IsAVestigeOfTheVoxPopuliNowVacant, 
+        ThisVisage,
+        NoMereVeneerOfVanity,
+        IsAVestigeOfTheVoxPopuliNowVacant,
         Vanished
     >(): V;
 }
@@ -75,7 +75,7 @@ printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
 interface ReallyReallyLongName<
-    TypeArgumentNumberOne, 
+    TypeArgumentNumberOne,
     TypeArgumentNumberTwo,
     TypeArgumentNumberThree
 > {}

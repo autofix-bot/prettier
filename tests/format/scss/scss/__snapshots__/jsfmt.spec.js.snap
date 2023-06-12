@@ -199,9 +199,9 @@ trailingComma: "es5"
 =====================================input======================================
 @include bar (
     rgba(
-    50 
-    50 
-    .50 
+    50
+    50
+    .50
     50            ...
     // comment
   )
@@ -226,9 +226,9 @@ trailingComma: "none"
 =====================================input======================================
 @include bar (
     rgba(
-    50 
-    50 
-    .50 
+    50
+    50
+    .50
     50            ...
     // comment
   )
@@ -251,9 +251,9 @@ printWidth: 80
 trailingComma: "es5"
                                                                                 | printWidth
 =====================================input======================================
-// This comment won't be included in the CSS. 
+// This comment won't be included in the CSS.
 //This comment won't be included in the CSS.
-//     This comment won't be included in the CSS.     
+//     This comment won't be included in the CSS.
 
 /* But this comment will, except in compressed mode. */
 /*     But this comment will, except in compressed mode.     */
@@ -288,9 +288,9 @@ printWidth: 80
 trailingComma: "none"
                                                                                 | printWidth
 =====================================input======================================
-// This comment won't be included in the CSS. 
+// This comment won't be included in the CSS.
 //This comment won't be included in the CSS.
-//     This comment won't be included in the CSS.     
+//     This comment won't be included in the CSS.
 
 /* But this comment will, except in compressed mode. */
 /*     But this comment will, except in compressed mode.     */
@@ -326,7 +326,7 @@ trailingComma: "es5"
                                                                                 | printWidth
 =====================================input======================================
 @qux .foo
-// .bar 
+// .bar
 
 {}
 
@@ -347,7 +347,7 @@ trailingComma: "none"
                                                                                 | printWidth
 =====================================input======================================
 @qux .foo
-// .bar 
+// .bar
 
 {}
 

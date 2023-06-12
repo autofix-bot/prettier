@@ -284,11 +284,11 @@ printWidth: 80
 <i18n lang="json">
 { "en": {
     "hello": "hello world!"
-    
-    
+
+
     }, "ja": {
-   
-   
+
+
     "hello": "こんにちは、世界！"
   }
 }
@@ -320,11 +320,11 @@ printWidth: 80
 <i18n lang="json">
 { "en": {
     "hello": "hello world!"
-    
-    
+
+
     }, "ja": {
-   
-   
+
+
     "hello": "こんにちは、世界！"
   }
 }
@@ -365,11 +365,11 @@ semi: false
 <i18n lang="json">
 { "en": {
     "hello": "hello world!"
-    
-    
+
+
     }, "ja": {
-   
-   
+
+
     "hello": "こんにちは、世界！"
   }
 }
@@ -445,11 +445,11 @@ trailingComma: "es5"
 <i18n lang="json">
 { "en": {
     "hello": "hello world!"
-    
-    
+
+
     }, "ja": {
-   
-   
+
+
     "hello": "こんにちは、世界！"
   }
 }
@@ -525,11 +525,11 @@ trailingComma: "none"
 <i18n lang="json">
 { "en": {
     "hello": "hello world!"
-    
-    
+
+
     }, "ja": {
-   
-   
+
+
     "hello": "こんにちは、世界！"
   }
 }
@@ -605,11 +605,11 @@ vueIndentScriptAndStyle: true
 <i18n lang="json">
 { "en": {
     "hello": "hello world!"
-    
-    
+
+
     }, "ja": {
-   
-   
+
+
     "hello": "こんにちは、世界！"
   }
 }

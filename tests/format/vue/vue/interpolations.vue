@@ -9,10 +9,10 @@ x => {
 
 
 
-}} Magni consectetur in et molestias neque esse voluptatibus voluptas. {{  
-    
-    
-    some_variable 
+}} Magni consectetur in et molestias neque esse voluptatibus voluptas. {{
+
+
+    some_variable
 
 
 
@@ -21,7 +21,7 @@ x => {
                     preserve
 
                     invalid
-                    
+
                     interpolation
 
 }} reprehenderit voluptates minus {{console.log(  short_interpolation )}} nemo.</div>

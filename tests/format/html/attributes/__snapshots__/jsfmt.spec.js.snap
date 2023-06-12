@@ -74,7 +74,7 @@ and HTML5 Apps. It also documents Mozilla products, like Firefox OS.">
 </X>
 <X a="1" b="2" c="3">
 </X>
-<p 
+<p
   class="
     foo
     bar
@@ -557,7 +557,7 @@ parsers: ["html"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-<div 
+<div
     smart-quotes='123 " 456'
     smart-quotes="123 ' 456"
     smart-quotes='123 &apos;&quot; 456'
@@ -579,14 +579,14 @@ parsers: ["html"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-<img src="/assets/visual.png" 
-srcset="/assets/visual@0.5.png  400w, /assets/visual.png      805w" 
+<img src="/assets/visual.png"
+srcset="/assets/visual@0.5.png  400w, /assets/visual.png      805w"
 sizes="(max-width: 66rem) 100vw, 66rem" alt=""/>
-<img src="/assets/visual.png" 
-srcset="/assets/visual@0.5.png  400w, /assets/visual.png      805w,	/assets/visual@2x.png   1610w,	/assets/visual@3x.png   2415w" 
+<img src="/assets/visual.png"
+srcset="/assets/visual@0.5.png  400w, /assets/visual.png      805w,	/assets/visual@2x.png   1610w,	/assets/visual@3x.png   2415w"
 sizes="(max-width: 66rem) 100vw, 66rem" alt=""/>
-<img src="/assets/visual.png" 
-srcset="/assets/visual@0.5.png  0.5x, /assets/visual.png      1111x,	/assets/visual@2x.png   2x,	/assets/visual@3x.png   3.3333x" 
+<img src="/assets/visual.png"
+srcset="/assets/visual@0.5.png  0.5x, /assets/visual.png      1111x,	/assets/visual@2x.png   2x,	/assets/visual@3x.png   3.3333x"
 sizes="(max-width: 66rem) 100vw, 66rem" alt=""/>
 <img
 
@@ -713,21 +713,21 @@ background: linear-gradient(to left, hotpink, hsla(240, 100%, 50%, .05), transpa
   </div>
 
 
-<div style="  
+<div style="
 
 color: green;
 
-display: inline 
+display: inline
 
 ">
   </div>
 
-<div attribute-1 attribute-2 attribute-3 attribute-4 attribute-5 attribute-6 attribute-7 
+<div attribute-1 attribute-2 attribute-3 attribute-4 attribute-5 attribute-6 attribute-7
 style="css-prop-1: css-value;css-prop-2: css-value;css-prop-3: css-value;css-prop-4: css-value;"
  attribute-1 attribute-2 attribute-3 attribute-4 attribute-5 attribute-6 attribute-7 >
   </div>
 
-<div style="{{ ...styles }}" 
+<div style="{{ ...styles }}"
 ></div>
 
 <div style="color: red; {{ otherStyles }}"

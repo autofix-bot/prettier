@@ -605,10 +605,10 @@ class A {
 exports[`classAbstractMixedWithModifiers.ts [babel-ts] format 1`] = `
 "'static' modifier cannot be used with 'abstract' modifier. (12:14)
   10 |     abstract private foo_dd();
-  11 |     
+  11 |
 > 12 |     abstract static foo_d();
      |              ^
-  13 |     
+  13 |
   14 |     static abstract foo_e();
   15 | }"
 `;
@@ -621,17 +621,17 @@ printWidth: 80
 =====================================input======================================
 abstract class A {
     abstract foo_a();
-    
+
     public abstract foo_b();
     protected abstract foo_c();
     private abstract foo_d();
-    
+
     abstract public foo_bb();
     abstract protected foo_cc();
     abstract private foo_dd();
-    
+
     abstract static foo_d();
-    
+
     static abstract foo_e();
 }
 =====================================output=====================================
@@ -664,16 +664,16 @@ abstract class A {
     abstract foo();
     abstract foo() : number;
     abstract foo();
-    
+
     abstract bar();
     bar();
     abstract bar();
-    
+
     abstract baz();
     baz();
     abstract baz();
     baz() {}
-    
+
     qux();
 }
 
@@ -781,9 +781,9 @@ abstract class A {
     public abstract y : number;
     protected abstract z : number;
     private abstract w : number;
-    
-    abstract m: () => void; 
-    
+
+    abstract m: () => void;
+
     abstract foo_x() : number;
     public abstract foo_y() : number;
     protected abstract foo_z() : number;

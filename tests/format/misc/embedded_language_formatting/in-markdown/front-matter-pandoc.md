@@ -1,5 +1,5 @@
 ---yaml
-  
+
 title: Hello
 slug: home
 

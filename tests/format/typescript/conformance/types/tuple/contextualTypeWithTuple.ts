@@ -9,7 +9,7 @@ class D { }
 var unionTuple: [C, string | number] = [new C(), "foo"];
 var unionTuple1: [C, string | number] = [new C(), "foo"];
 var unionTuple2: [C, string | number, D] = [new C(), "foo", new D()];
-var unionTuple3: [number, string| number] = [10, "foo"]; 
+var unionTuple3: [number, string| number] = [10, "foo"];
 
 numStrTuple = numStrTuple2;
 numStrTuple = numStrBoolTuple;

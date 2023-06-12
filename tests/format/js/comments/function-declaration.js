@@ -40,7 +40,7 @@ class C4 {
   f/* f */(/* args */) /* returns */ {}
 }
 
-function foo1() 
+function foo1()
 // this is a function
 {
   return 42

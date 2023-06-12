@@ -1,6 +1,6 @@
 ## plain js block
 
-```js    
+```js
 console.log    (    "hello world"    );
 ```
 

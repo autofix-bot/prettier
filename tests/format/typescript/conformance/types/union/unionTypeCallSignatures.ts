@@ -2,11 +2,11 @@
 var strOrBoolean: string | boolean;
 var strOrNum: string | number;
 
-// If each type in U has call signatures and the sets of call signatures are identical ignoring return types, 
+// If each type in U has call signatures and the sets of call signatures are identical ignoring return types,
 // U has the same set of call signatures, but with return types that are unions of the return types of the respective call signatures from each type in U.
 var unionOfDifferentReturnType: { (a: number): number; } | { (a: number): Date; };
 numOrDate = unionOfDifferentReturnType(10);
-strOrBoolean = unionOfDifferentReturnType("hello"); // error 
+strOrBoolean = unionOfDifferentReturnType("hello"); // error
 unionOfDifferentReturnType1(true); // error in type of parameter
 
 var unionOfDifferentReturnType1: { (a: number): number; (a: string): string; } | { (a: number): Date; (a: string): boolean; };

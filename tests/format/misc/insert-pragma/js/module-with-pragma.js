@@ -1,6 +1,6 @@
 /**
  * Here lie words above pragmas
- * 
+ *
  * @flow
  * @format
  */

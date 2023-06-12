@@ -125,7 +125,7 @@ const Foo = () => {
     <div>
       {/*
         This links to a page that does not yet exist.
-      */}    
+      */}
       <hr />
     </div>
   );
@@ -158,7 +158,7 @@ trailingComma: "all"
 =====================================input======================================
 ## plain js block
 
-\`\`\`js    
+\`\`\`js
 console.log    (    "hello world"    );
 \`\`\`
 

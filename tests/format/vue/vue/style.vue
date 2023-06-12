@@ -24,7 +24,7 @@
 }
 </style>
 <style lang="less" scoped>
-#foo6{ 
+#foo6{
          @color: #f00;
   color: @color;
 }
@@ -32,13 +32,13 @@
 
 
 <style lang="scss">
-#foo8{ 
+#foo8{
          $color: #f00;
   color: $color;
 }
 </style>
 <style lang="scss" scoped>
-#foo8{ 
+#foo8{
          $color: #f00;
   color: $color;
 }

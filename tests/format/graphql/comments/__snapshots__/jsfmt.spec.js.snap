@@ -31,7 +31,7 @@ parsers: ["graphql"]
 printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
-query { 
+query {
   someField # Trailing comment
 }
 

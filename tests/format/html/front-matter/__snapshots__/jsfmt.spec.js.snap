@@ -7,7 +7,7 @@ printWidth: 80
                                                                                 | printWidth
 =====================================input======================================
 ---mycustomparser
-  
+
 title: Hello
 slug: home
 
@@ -18,7 +18,7 @@ slug: home
 
 =====================================output=====================================
 ---mycustomparser
-  
+
 title: Hello
 slug: home
 

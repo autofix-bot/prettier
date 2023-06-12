@@ -420,7 +420,7 @@ x = <div>
 </div>
 
 x = <div><span/>bar</div>
-  
+
 x = <div>
   <span>
     <strong>{name}</strong>’s{' '}
@@ -432,15 +432,15 @@ x = <div>
 x = <HelpBlock>
   {parameter.Description}: {errorMsg}
 </HelpBlock>
-  
+
 x = <label>
   {value} solution{plural}
 </label>
-  
+
 x = <span>Copy &quot;{name}&quot;</span>
-  
+
 x = <BasicText light>(avg. {value}/5)</BasicText>
-  
+
 x = <p>
   Use the <code>Button</code>'s
 </p>;

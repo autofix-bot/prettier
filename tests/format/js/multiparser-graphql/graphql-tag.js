@@ -72,7 +72,7 @@ ${seven}
 
 ${eight}
 
-  # comment with trailing whitespace      
+  # comment with trailing whitespace
 
 
 # blank line above this comment
@@ -137,14 +137,14 @@ query User {
   test
 }
 
-    
-	
+
+
 ${USER_DETAILS_FRAGMENT}
 
-   # Comment    
+   # Comment
    # that continues on a new line
 
-    
+
    # and has a blank line in the middle
 
     ${FRIENDS_FRAGMENT}

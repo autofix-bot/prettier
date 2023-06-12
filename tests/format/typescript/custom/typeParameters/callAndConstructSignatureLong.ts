@@ -1,13 +1,13 @@
 interface Interface {
     <
-        Voila, 
-        InViewHumbleVaudevillianVeteran, 
+        Voila,
+        InViewHumbleVaudevillianVeteran,
         CastVicariouslyAsBothVictimAndVillainByTheVicissitudesOfFate
     >(): V;
     new <
-        ThisVisage, 
-        NoMereVeneerOfVanity, 
-        IsAVestigeOfTheVoxPopuliNowVacant, 
+        ThisVisage,
+        NoMereVeneerOfVanity,
+        IsAVestigeOfTheVoxPopuliNowVacant,
         Vanished
     >(): V;
 }

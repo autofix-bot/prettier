@@ -1,6 +1,6 @@
 <!--
-  MIT LICENSE 
-  
+  MIT LICENSE
+
   bla bla bla
 
   @format

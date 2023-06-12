@@ -1,7 +1,7 @@
 ﻿var numOrDate: number | Date;
 var anyVar: number;
 
-// If each type in U has a string index signature, 
+// If each type in U has a string index signature,
 // U has a string index signature of a union type of the types of the string index signatures from each type in U.
 
 var unionOfDifferentReturnType: { [a: string]: number; } | { [a: string]: Date; };
@@ -12,7 +12,7 @@ var unionOfTypesWithAndWithoutStringSignature: { [a: string]: number; } | boolea
 anyVar = unionOfTypesWithAndWithoutStringSignature["hello"]; // any
 anyVar = unionOfTypesWithAndWithoutStringSignature[10]; // any
 
-// If each type in U has a numeric index signature, 
+// If each type in U has a numeric index signature,
 // U has a numeric index signature of a union type of the types of the numeric index signatures from each type in U.
 var unionOfDifferentReturnType1: { [a: number]: number; } | { [a: number]: Date; };
 numOrDate = unionOfDifferentReturnType1["hello"]; // any

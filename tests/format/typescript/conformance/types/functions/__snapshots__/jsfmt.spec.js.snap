@@ -75,7 +75,7 @@ class Derived1 extends Base { private m; }
 class Derived2 extends Base { private n; }
 function f8() {
     return new Derived1();
-    return new Derived2();    
+    return new Derived2();
 }
 var f9 = function () {
     return new Derived1();
@@ -264,7 +264,7 @@ var n = function () {
 }();
 
 // Otherwise, the inferred return type is the first of the types of the return statement expressions
-// in the function body that is a supertype of each of the others, 
+// in the function body that is a supertype of each of the others,
 // ignoring return statements with no expressions.
 // A compile - time error occurs if no return statement expression has a type that is a supertype of each of the others.
 // FunctionExpression with no return type annotation with multiple return statements with subtype relation between returns
@@ -309,7 +309,7 @@ function opt3(n: number, m = n) {
     var y: number;
 }
 
-// Function signature with optional parameter has correct codegen 
+// Function signature with optional parameter has correct codegen
 // (tested above)
 
 // FunctionExpression with non -void return type annotation return with no expression
@@ -320,7 +320,7 @@ function f6(): number {
 class Derived2 extends Base { private r: string; }
 class AnotherClass { private x }
 // if f is a contextually typed function expression, the inferred return type is the union type
-// of the types of the return statement expressions in the function body, 
+// of the types of the return statement expressions in the function body,
 // ignoring return statements with no expressions.
 var f7: (x: number) => string | number = x => { // should be (x: number) => number | string
     if (x < 0) { return x; }
@@ -541,7 +541,7 @@ printWidth: 80
 function f(x: string): number;
 function f(x: string): void {
     return;
-} 
+}
 
 =====================================output=====================================
 function f(x: string): number;
@@ -561,7 +561,7 @@ printWidth: 80
 function f(x: string): void;
 function f(x: string): number {
     return 0;
-} 
+}
 
 =====================================output=====================================
 function f(x: string): void;
@@ -581,7 +581,7 @@ printWidth: 80
 function f(x: string): void;
 function f(x: string): void {
     return;
-} 
+}
 
 =====================================output=====================================
 function f(x: string): void;

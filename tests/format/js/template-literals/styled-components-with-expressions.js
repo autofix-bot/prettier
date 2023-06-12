@@ -36,7 +36,7 @@ margin: 0;
 
 .top-bar .logo {
   height: 30px;
-  margin: auto; 
+  margin: auto;
     position: absolute;
 	left: 0;right: 0;
 }
